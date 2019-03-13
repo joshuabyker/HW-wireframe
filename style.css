@@ -6,11 +6,6 @@ body{
     font-size: 18px;
 }
 
-header, nav, section, aside, footer{
-    background: #ebebeb;
-
-}
-
 article{
     color: #ebebeb;
     background: #777;
@@ -25,3 +20,19 @@ section{
     width: 495px;
 }
 
+header{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    float:inline-start;
+    background: #ebebeb;
+}
+
+nav{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    position: static;
+    background: #ebebeb
+    
+}
