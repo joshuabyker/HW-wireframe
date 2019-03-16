@@ -8,24 +8,26 @@ body{
 }
 
 article{
-    align-content: inherit;
     color: #ebebeb;
     background: #777;
     align-content: flex;
     order: inherit;
+    height:100px;
+    padding: 15px;
 }
 
-h1, p{
+ p{
     color: #777;
     background: #ebebeb;
+    border: #ebebeb;
+    
 
 }
 
-section{
-    width: 495px;
-    align-content: flex-start;
-    flex-direction: column;
-    order: initial
+.paragraph{
+    width:90%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 header{
@@ -52,7 +54,8 @@ aside{
     text-align: center;
     float: right;
     width: 320px;
-    height: auto;
+    height: 200px;
+    padding:15px; 
 }
 section{
     background: #ebebeb;
@@ -60,16 +63,27 @@ section{
     text-align: center;
     float: left;
     padding: 15px;
+    height: 150px;
+    width:60%;
 }
 footer{
     background: #ebebeb;
     color: #777;
-    padding: 20px;
-    
+    padding: 25px;
+    position: center;
+    text-align: center;
+    margin: 75px 25px 75px 25px;
 
 }
 .inline{
-    display: inline;
+    background-color: #ebebeb;
+    
+    color: #777;
+    width:90%;
+     background-color: #ebebeb;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
 }
 .clearfix::after{
     content:"";
@@ -77,6 +91,10 @@ footer{
     clear: both;
     
 }
-h1, h2, h3{
-    padding: 15px;
-}
+h1 { background-color: #ebebeb;
+    display: inline;
+    color: #777;
+    border:15px 30px 15px 30px; background-color: #ebebeb;
+    text-align: center;
+
+    }
